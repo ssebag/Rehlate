@@ -1,0 +1,75 @@
+nav{
+    height: 50px;
+    position: absolute;
+    z-index: 100;
+    background: none;
+    top: 48px;
+    left: 60px;
+    right: 60px;
+}
+.nav-items{
+    gap: 44px;
+}
+.menu_icon{
+    display: none;
+}
+.lang{
+  border: 1px solid var(--purple-color);
+  padding: 3px 8px;
+  border-radius: 10px;
+  background-color: var(--purple-color);
+  color: var(--White-color);
+}
+/*  ================================= For Mobil ================================== */
+.nav-mobile{
+    position: fixed;
+    right: 50px;
+    padding: 60px 40px 20px;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--White-color);
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px var(--purple-color);
+  }
+  .nav-mobile-items {
+    gap: 30px;
+  }
+  .close-icon{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    color: var(--purple-color);
+  }
+  .lang-mobile{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+  }
+  .forMobile{
+    gap: 15px;
+  }
+  .mode_paragraph{
+    margin-bottom: 0;
+  }
+  .navOption{
+    gap:20px;
+  }
+  .nav-mobile .lang img{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  
+/* =================================== Responsive ================================== */
+@media (max-width:992px) {
+    nav {
+     direction: ltr !important; 
+    }
+     .nav-items, .lang-web{
+       display: none;
+     }
+     .menu_icon{
+       display: block;
+       color: var(--Black-color);
+     }
+ }
