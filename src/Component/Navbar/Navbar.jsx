@@ -23,8 +23,8 @@ export default function Navbar() {
   return (
     <>
       <nav>
-         <div className="flex-bw">
-            <h2 className='logo'>rehlati</h2>
+         <div className={`flex-bw ${i18n.language ==='ar' ? 'arabic' : ''} `}>
+          <h5 className="text-uppercase text-light logo">رحلاتي </h5> 
             <NavItems navClass={"nav-items pointer flex-al-c"}/>
              <div className="lang lang-web">
               {

@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lama-sans');
 
+                
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lama Sans', sans-serif;
   }
   :root{
       --Black-color:#0f0f0f;
@@ -14,6 +16,7 @@
       --gray-color:#7d7d7d;
       --purple-color: #8a658d;
       --light-purple-color: #bcacbc;
+      --yellow-color:#FEC430;
   }
   html{
       scroll-behavior: smooth;
@@ -60,4 +63,7 @@
       padding: 48px 60px 17px 60px;
   }
   
-  
+/* ================= Arabic =================== */
+.arabic{
+    direction: rtl;
+}  
