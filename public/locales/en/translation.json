@@ -1,4 +1,41 @@
 {
-        "greeting": "Hello",
-        "welcomeMessage": "Welcome to our app!"
-      }
+  "Navbar":{
+    "Trips":"Trips",
+    "Services":"Services",
+    "Pricing":"Pricing",
+    "Testimonials":"Testimonials",
+    "ContactUs":"Contact Us"
+  },
+  "footer":{
+    "paragraph":"A company specialized in tourism and travel. We provide trip booking, visas, and travel services around the world.",
+    "About":{
+      "About": "About",
+      "Company":"Company",
+      "AboutUs":"About Us",
+      "Careers":"Careers",
+      "Blog":"Blog"
+    },
+    "OurServices":{
+      "OurServices":"Our Services",
+      "FlightTickets":"Flight Tickets",
+      "Cruises":"Cruises",
+      "Hotels":"Hotels",
+      "LandTrips":"Land Trips",
+      "VisaServices":"Visa Services"
+    },
+    "Reservations":{
+      "Reservations": "Reservations",
+      "NewOffers":"New Offers",
+      "CheckBooking":"Check Booking",
+      "Subscriptions":"Subscriptions",
+      "TravelMethods":"Travel Methods"
+    },
+    "Website":{
+      "Website": "Website",
+      "PrivacyPolicy":"Privacy Policy",
+      "TermsOfUse":"Terms of Use",
+      "ReportAProblem":"Report a Problem",
+      "ContactUs":"Contact Us"
+    }
+  }
+}

@@ -1,23 +1,23 @@
 export const Items = [
     {
-      title: "About",
-      path: "#about",
+      title: "Trips",
+      path: "#trips",
     },
     {
-      title: "Skills",
-      path: "#skills",
+      title: "Services",
+      path: "#services",
     },
     {
-      title: "Projects",
-      path: "#projects",
+      title: "Pricing",
+      path: "#pricing",
     },
     {
-      title: "Achievements",
-      path: "#achievements",
+      title: "Testimonials",
+      path: "#testimonials",
     },
     {
-      title: "Contacts",
-      path: "#contact",
+      title: "ContactUs",
+      path: "#contactUs",
     },
 ];
   
