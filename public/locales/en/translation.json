@@ -13,6 +13,10 @@
     "HeroScroll":"Scroll Down"
   },
   "mainTitle":{
+    "Rehlate":{
+      "Paraghraph":"Visit the world",
+      "MainTitle":"The trips we offer"
+    },
     "Services":{
       "Paraghraph":"Have fun on your trip",
       "MainTitle":"A collection of our services"
@@ -24,6 +28,25 @@
     "Contact":{
       "Paraghraph":"Do you have a question?",
       "MainTitle":"We are pleased to communicate with you"
+    }
+  },
+  
+  "Rehlate":{
+    "Card1":{
+      "Title":"دبي",
+      "Cost":"3 أيام بتكلفة 2,500 $"
+    },
+    "Card2":{
+      "Title":"اسطنبول",
+      "Cost":"5 أيام بتكلفة 1,500 $"
+    },
+    "Card3":{
+      "Title":"القاهرة",
+      "Cost":"3 أيام بتكلفة 1,250 $"
+    },
+    "Card4":{
+      "Title":"الرياض",
+      "Cost":"2 أيام بتكلفة 1,500 $"
     }
   },
   "Services":{

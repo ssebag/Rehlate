@@ -13,6 +13,10 @@
     "HeroScroll":"تابع للأسفل"
   },
   "mainTitle":{
+    "Rehlate":{
+      "Paraghraph":"قم بزيارة العالم",
+      "MainTitle":"الرحلات التي نقدمها"
+    },
     "Services":{
       "Paraghraph":"تمتع في رحلتك",
       "MainTitle":"مجموعة من خدماتنا"
@@ -24,6 +28,24 @@
     "Contact":{
       "Paraghraph":"هل لديك سؤال؟",
       "MainTitle":"يسعدنا التواصل معك"
+    }
+  },
+  "Rehlate":{
+    "Card1":{
+      "Title":"Dubai",
+      "Cost":"3 days at 2,500 $"
+    },
+    "Card2":{
+      "Title":"Istanbul",
+      "Cost":"5 days at 1,500 $"
+    },
+    "Card3":{
+      "Title":"Cairo",
+      "Cost":"3 days at 1,250 $"
+    },
+    "Card4":{
+      "Title":"Riyadh",
+      "Cost":"2 days at 1,500 $"
     }
   },
   "Services":{

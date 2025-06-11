@@ -1,0 +1,15 @@
+.swiper .card{
+    width: 300px;
+    border: none;
+    position: relative;
+}
+.swiper .card .card-body{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 106px;
+    padding: 24px;
+    border-radius: 20px;
+    width: 280px;
+}
