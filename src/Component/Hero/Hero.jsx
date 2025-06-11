@@ -10,7 +10,7 @@ export default function Hero() {
         <h1>{t('Hero.HeroTitle')}</h1>
         <p>{t('Hero.HeroParagraph')}</p>
         <button className='bg-warning flex-bw text-dark'>
-          <i class="fa-solid fa-chevron-left bg-light"></i>
+          <i className="fa-solid fa-chevron-left bg-light"></i>
           {t('Hero.HeroButton')}
         </button>
         <p>{t('Hero.HeroScroll')}</p>

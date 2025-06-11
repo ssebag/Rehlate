@@ -12,9 +12,9 @@ export default function Card({price, plan, description,tickets, booking, Persona
             <p className="card-text">{description}</p>
             <hr />
             <ul>
-                <li><i class="fa-solid fa-check bg-light text-dark"></i> {tickets}</li>
-                <li><i class="fa-solid fa-check bg-light text-dark"></i> {booking}</li>
-                <li><i class="fa-solid fa-check bg-light text-dark"></i> {PersonalizedSupport}</li>
+                <li><i className="fa-solid fa-check bg-light text-dark"></i> {tickets}</li>
+                <li><i className="fa-solid fa-check bg-light text-dark"></i> {booking}</li>
+                <li><i className="fa-solid fa-check bg-light text-dark"></i> {PersonalizedSupport}</li>
             </ul>
             <button className='flex-center'> <i class="fa-solid fa-chevron-left bg-light text-dark"></i>{t('Plans.BookingNow')}</button>
         </div>

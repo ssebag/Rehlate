@@ -1,5 +1,5 @@
 import React from 'react'
-import './contactUs.css'
+import './ContactUs.css'
 import Title from './../Title/Title'
 import Form from './../Form/Form'
 import { useTranslation } from 'react-i18next';
