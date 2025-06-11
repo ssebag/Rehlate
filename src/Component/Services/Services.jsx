@@ -14,7 +14,7 @@ export default function Services() {
         {
           ServicesData.map((el, idx) =>{
             return (
-             <Card image={el.image} title={el.title} description={el.description}/> 
+             <Card image={el.image} title={t(`${el.title}`)} description={t(`${el.description}`)}/> 
             );
           })
          }

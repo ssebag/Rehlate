@@ -1,29 +1,29 @@
 export const PlansData=[
     {
-      price:"$850",
-      plan:"Business",
-      description:"As a person of fine taste, this plan will suit you perfectly",
-      tickets:"Business class flight tickets",
-      booking:"5-star hotel booking",
-      PersonalizedSupport:"Personalized support for your needs",
+      price:"Plans.Card1.price",
+      plan:"Plans.Card1.plan",
+      description:"Plans.Card1.description",
+      tickets:"Plans.Card1.tickets",
+      booking:"Plans.Card1.booking",
+      PersonalizedSupport:"Plans.Card1.PersonalizedSupport",
       background:"wheateCard"
     },
     {
-        price:"$850",
-        plan:"Business",
-        description:"As a person of fine taste, this plan will suit you perfectly",
-        tickets:"Business class flight tickets",
-        booking:"5-star hotel booking",
-        PersonalizedSupport:"Personalized support for your needs",
+        price:"Plans.Card2.price",
+        plan:"Plans.Card2.plan",
+        description:"Plans.Card2.description",
+        tickets:"Plans.Card2.tickets",
+        booking:"Plans.Card2.booking",
+        PersonalizedSupport:"Plans.Card2.PersonalizedSupport",
         background:"purpleCard"
     },
     {
-        price:"$850",
-        plan:"Business",
-        description:"As a person of fine taste, this plan will suit you perfectly",
-        tickets:"Business class flight tickets",
-        booking:"5-star hotel booking",
-        PersonalizedSupport:"Personalized support for your needs",
+        price:"Plans.Card3.price",
+        plan:"Plans.Card3.plan",
+        description:"Plans.Card3.description",
+        tickets:"Plans.Card3.tickets",
+        booking:"Plans.Card3.booking",
+        PersonalizedSupport:"Plans.Card3.PersonalizedSupport",
         background:"wheateCard"
     },
 ];

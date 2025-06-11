@@ -9,13 +9,20 @@ export default function Plans() {
     const { t, i18n } = useTranslation();
 
   return (
-    <div className='plans'>
+    <div className={`plans ${i18n.language ==='ar' ? 'arabic' : ''} `}>
      <Title  titleParagraph= {t('mainTitle.Plans.Paraghraph')} titleMain={t('mainTitle.Plans.MainTitle')} />
      <div className="cards-plans flex-bw">
         {
           PlansData.map((el, idx) =>{
             return (
-             <Card background={el.background} price={el.price} plan={el.plan} description={el.description} tickets={el.tickets} booking={el.booking} PersonalizedSupport={el.PersonalizedSupport}/> 
+             <Card
+              background={el.background}
+              price={t(`${el.price}`)}
+              plan={t(`${el.plan}`)}
+              description={t(`${el.description}`)}
+              tickets={t(`${el.tickets}`)} 
+              booking={t(`${el.booking}`)}
+              PersonalizedSupport={t(`${el.PersonalizedSupport}`)}/> 
             );
           })
          }

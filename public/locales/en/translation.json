@@ -25,7 +25,6 @@
       "Paraghraph":"Do you have a question?",
       "MainTitle":"We are pleased to communicate with you"
     }
-
   },
   "Services":{
     "Card1":{
@@ -40,6 +39,54 @@
       "Title":"Tourist guide",
       "Description":"Your vacation will not be boring with us, as there are many different plans and trips."
     }
+  },
+  "Plans":{
+    "Card1":{
+      "price":"$850 / person",
+      "plan":"Business Plan",
+      "description":"As a person of fine taste, this plan will suit you perfectly",
+      "tickets":"Business class flight tickets",
+      "booking":"5-star hotel booking",
+      "PersonalizedSupport":"Personalized support for your needs"
+    },
+    "Card2":{
+      "price":"$520 / person",
+      "plan":"Family Plan",
+      "description":"This plan is perfect if you want to spend your vacation with the family",
+      "tickets":"First class flight tickets",
+      "booking":"4-star hotel booking",
+      "PersonalizedSupport":"Daily field trips"
+    },
+    "Card3":{
+      "price":"$260 / person",
+      "plan":"Economy Plan",
+      "description":"We offer you the chance to visit countries around the world at the lowest possible cost and best services",
+      "tickets":"Economy class flight tickets",
+      "booking":"3-star hotel booking",
+      "PersonalizedSupport":"Daily breakfast meals"
+    },
+    "BookingNow":"Booking Now"
+  },
+  "Contact":{
+    "Card1":{
+      "Title":"We offer you assistance",
+      "Description":"If you have any problem in the country you are traveling to, we will help you in this matter."
+    },
+    "Card2":{
+      "Title":"To connect",
+      "Description":"You can contact us via the form or via email: company@mail.com"
+    },
+    "Card3":{
+      "Title":"Working hours",
+      "Description":"You can contact us daily during working hours from 9 am to 6 pm."
+    },
+    "email":"Email",
+    "name":"Name",
+    "subject":"Subject",
+    "send":"Send",
+    "placeholder_name":"Please register your full name",
+    "placeholder_email":"Register your personal email",
+    "placeholder_subject":"What question or problem do you have?"
   },
   "footer":{
     "paragraph":"A company specialized in tourism and travel. We provide trip booking, visas, and travel services around the world.",

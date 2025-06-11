@@ -3,19 +3,20 @@ import Services_icon2 from './../../assets/Services-icon-02.png'
 import Services_icon3 from './../../assets/Services-icon-03.png'
 
 export const ServicesData=[
+    
     {
         image: Services_icon1,
-        title:'Title',
-        description:'Description'
+        title:'Services.Card1.Title',
+        description:'Services.Card1.Description'
     },
     {
         image: Services_icon2,
-        title:'Title',
-        description:"Description"
+        title:'Services.Card2.Title',
+        description:"Services.Card2.Description"
     },
     {
         image: Services_icon3,
-        title:'Title',
-        description:'Description'
+        title:'Services.Card3.Title',
+        description:'Services.Card3.Description'
     },
 ];

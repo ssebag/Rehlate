@@ -6,6 +6,9 @@
     box-shadow: 5px 4px 4px 3px;
     min-width: 350px;
 }
+.card-plans .card-title{
+  font-weight: 800;
+}
 .card-plans .card-body{
     gap:16px;
 }
@@ -28,7 +31,19 @@
     background-color: #FFE7AC;
     color: var(--Black-color);
 }
-
 .wheateCard button{
     border: 1px solid black;
+}
+.card-plans ul {
+   padding-left: 0;
+}
+.card-plans ul li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.card-plans ul li svg{
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 10px;
 }

@@ -17,6 +17,9 @@
 .contactUs .card-service-contact img{
    width: 124px;
 }
+.contactUs .card-service-contact{
+    width: 100%;
+}
 /* ============Responsive ============== */
 @media screen and (max-width:992px) {
     .contactUs{

@@ -75,4 +75,5 @@
 /* ================= Arabic =================== */
 .arabic{
     direction: rtl;
+    text-align: right !important;
 }  
