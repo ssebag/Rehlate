@@ -1,0 +1,25 @@
+{
+  "title":{
+    "Paraghraph":"Do you have a question?",
+        "MainTitle":"We are pleased to communicate with you"
+  },
+    "Card1":{
+        "Title":"We offer you assistance",
+        "Description":"If you have any problem in the country you are traveling to, we will help you in this matter."
+      },
+      "Card2":{
+        "Title":"To connect",
+        "Description":"You can contact us via the form or via email: company@mail.com"
+      },
+      "Card3":{
+        "Title":"Working hours",
+        "Description":"You can contact us daily during working hours from 9 am to 6 pm."
+      },
+      "email":"Email",
+      "name":"Name",
+      "subject":"Subject",
+      "send":"Send",
+      "placeholder_name":"Please register your full name",
+      "placeholder_email":"Register your personal email",
+      "placeholder_subject":"What question or problem do you have?"
+}

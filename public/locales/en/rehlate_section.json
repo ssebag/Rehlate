@@ -1,0 +1,22 @@
+{
+  "title":{
+    "Paraghraph":"Visit the world",
+    "MainTitle":"The trips we offer"
+  },
+    "Card1":{
+        "Title":"Dubai",
+        "Cost":"3 days at 2,500 $"
+      },
+      "Card2":{
+        "Title":"Istanbul",
+        "Cost":"5 days at 1,500 $"
+      },
+      "Card3":{
+        "Title":"Cairo",
+        "Cost":"3 days at 1,250 $"
+      },
+      "Card4":{
+        "Title":"Riyadh",
+        "Cost":"2 days at 1,500 $"
+      }
+}

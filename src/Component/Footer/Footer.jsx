@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
     
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation('footer');
     
   return (
     <footer className={`bg-dark text-center text-lg-start text-white ${i18n.language ==='ar' ? 'arabic' : ''}`}>
@@ -14,81 +14,81 @@ export default function Footer() {
                         <h5 className="text-uppercase">رحلاتي<span className='text-warning'>.</span> </h5> 
 
                         <p className='text-secondary'>
-                           {t('footer.paragraph')}
+                           {t('paragraph')}
                         </p>
                     </div>
                     <div className="col-lg-2 col-md-6 mb-4">
-                        <h5 className="text-uppercase"> {t('footer.About.About')}</h5>
+                        <h5 className="text-uppercase"> {t('About.About')}</h5>
 
                         <ul className="list-unstyled mb-0">
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.About.Company')}</a>
+                            <a href="#!" className='text-secondary'> {t('About.Company')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.About.AboutUs')}</a>
+                            <a href="#!" className='text-secondary'> {t('About.AboutUs')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.About.Careers')}</a>
+                            <a href="#!" className='text-secondary'> {t('About.Careers')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.About.Blog')}</a>
+                            <a href="#!" className='text-secondary'> {t('About.Blog')}</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-6 mb-4 ">
-                        <h5 className="text-uppercase"> {t('footer.OurServices.OurServices')}</h5>
+                        <h5 className="text-uppercase"> {t('OurServices.OurServices')}</h5>
 
                         <ul className="list-unstyled mb-0">
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.OurServices.FlightTickets')}</a>
+                            <a href="#!" className='text-secondary'> {t('OurServices.FlightTickets')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.OurServices.Cruises')}</a>
+                            <a href="#!" className='text-secondary'> {t('OurServices.Cruises')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.OurServices.Hotels')}</a>
+                            <a href="#!" className='text-secondary'> {t('OurServices.Hotels')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.OurServices.LandTrips')}</a>
+                            <a href="#!" className='text-secondary'> {t('OurServices.LandTrips')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'> {t('footer.OurServices.VisaServices')}</a>
+                            <a href="#!" className='text-secondary'> {t('OurServices.VisaServices')}</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-6 mb-4 ">
-                        <h5 className="text-uppercase">{t('footer.Reservations.Reservations')}</h5>
+                        <h5 className="text-uppercase">{t('Reservations.Reservations')}</h5>
 
                         <ul className="list-unstyled mb-0">
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Reservations.NewOffers')}</a>
+                            <a href="#!" className='text-secondary'>{t('Reservations.NewOffers')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Reservations.CheckBooking')}</a>
+                            <a href="#!" className='text-secondary'>{t('Reservations.CheckBooking')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Reservations.Subscriptions')}</a>
+                            <a href="#!" className='text-secondary'>{t('Reservations.Subscriptions')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Reservations.TravelMethods')}</a>
+                            <a href="#!" className='text-secondary'>{t('Reservations.TravelMethods')}</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-6 mb-4 ">
-                        <h5 className="text-uppercase">{t('footer.Website.Website')}</h5>
+                        <h5 className="text-uppercase">{t('Website.Website')}</h5>
 
                         <ul className="list-unstyled mb-0">
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Website.PrivacyPolicy')}</a>
+                            <a href="#!" className='text-secondary'>{t('Website.PrivacyPolicy')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Website.TermsOfUse')}</a>
+                            <a href="#!" className='text-secondary'>{t('Website.TermsOfUse')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Website.ReportAProblem')}</a>
+                            <a href="#!" className='text-secondary'>{t('Website.ReportAProblem')}</a>
                             </li>
                             <li>
-                            <a href="#!" className='text-secondary'>{t('footer.Website.ContactUs')}</a>
+                            <a href="#!" className='text-secondary'>{t('Website.ContactUs')}</a>
                             </li>
                         </ul>
                     </div>

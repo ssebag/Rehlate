@@ -6,11 +6,11 @@ import {PlansData} from './PlansData'
 import Card from './../PlansCards/Card'
 
 export default function Plans() {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation('plans_section');
 
   return (
     <div className={`plans ${i18n.language ==='ar' ? 'arabic' : ''} `}>
-     <Title  titleParagraph= {t('mainTitle.Plans.Paraghraph')} titleMain={t('mainTitle.Plans.MainTitle')} />
+     <Title  titleParagraph= {t('title.Paraghraph')} titleMain={t('title.MainTitle')} />
      <div className="cards-plans flex-bw">
         {
           PlansData.map((el, idx) =>{

@@ -7,10 +7,10 @@ import {ContactData} from './ContactData'
 import Card from '../Cards/Card'
 
 export default function ContactUs() {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation('contact_section');
   return (
     <div className={`contactUs ${i18n.language ==='ar' ? 'arabic' : ''} `}>
-      <Title  titleParagraph= {t('mainTitle.Contact.Paraghraph')} titleMain={t('mainTitle.Contact.MainTitle')} />
+      <Title  titleParagraph= {t('title.Paraghraph')} titleMain={t('title.MainTitle')} />
       <div className='div-form'>
         <Form />
         <div className="cards-contact flex-col">

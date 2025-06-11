@@ -1,29 +1,29 @@
 export const PlansData=[
     {
-      price:"Plans.Card1.price",
-      plan:"Plans.Card1.plan",
-      description:"Plans.Card1.description",
-      tickets:"Plans.Card1.tickets",
-      booking:"Plans.Card1.booking",
-      PersonalizedSupport:"Plans.Card1.PersonalizedSupport",
+      price:"Card1.price",
+      plan:"Card1.plan",
+      description:"Card1.description",
+      tickets:"Card1.tickets",
+      booking:"Card1.booking",
+      PersonalizedSupport:"Card1.PersonalizedSupport",
       background:"wheateCard"
     },
     {
-        price:"Plans.Card2.price",
-        plan:"Plans.Card2.plan",
-        description:"Plans.Card2.description",
-        tickets:"Plans.Card2.tickets",
-        booking:"Plans.Card2.booking",
-        PersonalizedSupport:"Plans.Card2.PersonalizedSupport",
+        price:"Card2.price",
+        plan:"Card2.plan",
+        description:"Card2.description",
+        tickets:"Card2.tickets",
+        booking:"Card2.booking",
+        PersonalizedSupport:"Card2.PersonalizedSupport",
         background:"purpleCard"
     },
     {
-        price:"Plans.Card3.price",
-        plan:"Plans.Card3.plan",
-        description:"Plans.Card3.description",
-        tickets:"Plans.Card3.tickets",
-        booking:"Plans.Card3.booking",
-        PersonalizedSupport:"Plans.Card3.PersonalizedSupport",
+        price:"Card3.price",
+        plan:"Card3.plan",
+        description:"Card3.description",
+        tickets:"Card3.tickets",
+        booking:"Card3.booking",
+        PersonalizedSupport:"Card3.PersonalizedSupport",
         background:"wheateCard"
     },
 ];

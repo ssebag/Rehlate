@@ -12,7 +12,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function Swiperr() {
 
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation('rehlate_section');
 
   return (
     <Swiper

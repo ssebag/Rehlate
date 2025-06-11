@@ -5,17 +5,17 @@ import working_hours_icon from './../../assets/working-hours-icon.png'
 export const ContactData=[
     {
         image: help_icon,
-        title:'Contact.Card1.Title',
-        description:'Contact.Card1.Description'
+        title:'Card1.Title',
+        description:'Card1.Description'
     },
     {
         image: communication_icon,
-        title:'Contact.Card2.Title',
-        description:"Contact.Card2.Description"
+        title:'Card2.Title',
+        description:"Card2.Description"
     },
     {
         image: working_hours_icon,
-        title:'Contact.Card3.Title',
-        description:'Contact.Card3.Description'
+        title:'Card3.Title',
+        description:'Card3.Description'
     },
 ];

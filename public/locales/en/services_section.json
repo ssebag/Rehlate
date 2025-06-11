@@ -1,0 +1,18 @@
+{
+  "title":{
+    "Paraghraph":"Have fun on your trip",
+    "MainTitle":"A collection of our services"
+  },
+    "Card1":{
+        "Title":"Tourist guide",
+        "Description":"We offer you tour guide services to build unique travel plans."
+      },
+      "Card2":{
+        "Title":"Tourist guide",
+        "Description":"Don't worry about where to stay, we take care of all your bookings."
+      },
+      "Card3":{
+        "Title":"Tourist guide",
+        "Description":"Your vacation will not be boring with us, as there are many different plans and trips."
+      }
+}

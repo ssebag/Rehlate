@@ -1,0 +1,32 @@
+{
+  "title":{
+    "Paraghraph":"Don’t worry about the cost",
+    "MainTitle":"Plans that suit your budget"
+  },
+    "Card1":{
+        "price":"$850 / person",
+        "plan":"Business Plan",
+        "description":"As a person of fine taste, this plan will suit you perfectly",
+        "tickets":"Business class flight tickets",
+        "booking":"5-star hotel booking",
+        "PersonalizedSupport":"Personalized support for your needs"
+      },
+      "Card2":{
+        "price":"$520 / person",
+        "plan":"Family Plan",
+        "description":"This plan is perfect if you want to spend your vacation with the family",
+        "tickets":"First class flight tickets",
+        "booking":"4-star hotel booking",
+        "PersonalizedSupport":"Daily field trips"
+      },
+      "Card3":{
+        "price":"$260 / person",
+        "plan":"Economy Plan",
+        "description":"We offer you the chance to visit countries around the world at the lowest possible cost and best services",
+        "tickets":"Economy class flight tickets",
+        "booking":"3-star hotel booking",
+        "PersonalizedSupport":"Daily breakfast meals"
+      },
+      "BookingNow":"Booking Now"
+  
+}

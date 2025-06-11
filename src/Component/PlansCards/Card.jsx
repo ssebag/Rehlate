@@ -3,7 +3,7 @@ import './Card.css'
 import { useTranslation } from 'react-i18next';
 export default function Card({price, plan, description,tickets, booking, PersonalizedSupport, background}) {
   
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation('plans_section');
   return (
     <div className={`card card-plans ${background}`} >
         <div className="card-body flex-col">
@@ -16,7 +16,7 @@ export default function Card({price, plan, description,tickets, booking, Persona
                 <li><i className="fa-solid fa-check bg-light text-dark"></i> {booking}</li>
                 <li><i className="fa-solid fa-check bg-light text-dark"></i> {PersonalizedSupport}</li>
             </ul>
-            <button className='flex-center'> <i class="fa-solid fa-chevron-left bg-light text-dark"></i>{t('Plans.BookingNow')}</button>
+            <button className='flex-center'> <i class="fa-solid fa-chevron-left bg-light text-dark"></i>{t('BookingNow')}</button>
         </div>
     </div>
   )

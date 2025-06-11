@@ -1,0 +1,32 @@
+{
+  "paragraph":"شركة متخصصة في مجال السياحة والسفر نقدم خدمات تأمين الرحلات والحجوزات والفيز لكل أنحاء العالم.",
+  "About":{
+    "About":"حول",
+    "Company":"الشركة",
+    "AboutUs":"من نحن؟",
+    "Careers":"فرص العمل",
+    "Blog":"المدونة"
+  },
+  "OurServices":{
+    "OurServices":"خدماتنا",
+    "FlightTickets":"بطاقات الطيران",
+    "Cruises":"الرحلات البحرية",
+    "Hotels":"الفنادق",
+    "LandTrips":"الرحلات البرية",
+    "VisaServices":"تأمين الفيزا"
+  },
+  "Reservations":{
+    "Reservations":"الحجوزات",
+    "NewOffers":"العروض الجديدة",
+    "CheckBooking":"تأكد من حجزك",
+    "Subscriptions":"الاشتراكات",
+    "TravelMethods":"طرق السفر"
+  },
+  "Website":{
+    "Website":"الموقع",
+    "PrivacyPolicy":"سياسة الخصوصية",
+    "TermsOfUse":"شروط الاستخدام",
+    "ReportAProblem":"بلغ عن مشكلة",
+    "ContactUs":"تواصل معنا"
+  }
+}

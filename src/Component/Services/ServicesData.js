@@ -6,17 +6,17 @@ export const ServicesData=[
     
     {
         image: Services_icon1,
-        title:'Services.Card1.Title',
-        description:'Services.Card1.Description'
+        title:'Card1.Title',
+        description:'Card1.Description'
     },
     {
         image: Services_icon2,
-        title:'Services.Card2.Title',
-        description:"Services.Card2.Description"
+        title:'Card2.Title',
+        description:"Card2.Description"
     },
     {
         image: Services_icon3,
-        title:'Services.Card3.Title',
-        description:'Services.Card3.Description'
+        title:'Card3.Title',
+        description:'Card3.Description'
     },
 ];
