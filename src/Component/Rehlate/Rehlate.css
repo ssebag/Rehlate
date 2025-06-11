@@ -1,9 +1,7 @@
-.rehlate .arabic{
-    padding: 124px 60px 0 0;
-}
+
 .rehlate{
-    padding: 124px 0px 0 124px;
+    padding: 124px 0 0 0;
 }
 .rehlate .main-title{
-    margin-bottom: 64px; 
+    margin: 0 60px 64px 60px;
 }
