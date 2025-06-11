@@ -30,23 +30,22 @@
       "MainTitle":"We are pleased to communicate with you"
     }
   },
-  
   "Rehlate":{
     "Card1":{
-      "Title":"دبي",
-      "Cost":"3 أيام بتكلفة 2,500 $"
+      "Title":"Dubai",
+      "Cost":"3 days at 2,500 $"
     },
     "Card2":{
-      "Title":"اسطنبول",
-      "Cost":"5 أيام بتكلفة 1,500 $"
+      "Title":"Istanbul",
+      "Cost":"5 days at 1,500 $"
     },
     "Card3":{
-      "Title":"القاهرة",
-      "Cost":"3 أيام بتكلفة 1,250 $"
+      "Title":"Cairo",
+      "Cost":"3 days at 1,250 $"
     },
     "Card4":{
-      "Title":"الرياض",
-      "Cost":"2 أيام بتكلفة 1,500 $"
+      "Title":"Riyadh",
+      "Cost":"2 days at 1,500 $"
     }
   },
   "Services":{
