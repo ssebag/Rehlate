@@ -1,6 +1,6 @@
-import Services_icon1 from './../../assets/Services-icon-01.png'
-import Services_icon2 from './../../assets/Services-icon-02.png'
-import Services_icon3 from './../../assets/Services-icon-03.png'
+import Services_icon1 from './../../assets/services-icon-01.png'
+import Services_icon2 from './../../assets/services-icon-02.png'
+import Services_icon3 from './../../assets/services-icon-03.png'
 
 export const ServicesData=[
     
