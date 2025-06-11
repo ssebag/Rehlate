@@ -1,0 +1,10 @@
+.services{
+    padding: 30px 60px;
+    text-align: center;
+}
+.services .cards-services{
+    background-color: #4c4c4c27;
+    border-radius: 15px;
+    padding: 96px 120px;
+    margin-top: 64px;
+}

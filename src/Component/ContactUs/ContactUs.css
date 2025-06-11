@@ -1,0 +1,37 @@
+.contactUs{
+    padding: 164px 99px;
+}
+.div-form{
+    margin-top: 64px;
+    display: flex;
+  justify-content: space-between;
+}
+.cards-contact{
+    width: 45%;
+    gap: 48px;
+}
+.contactUs .card-service-contact{
+    display: flex;
+    flex-direction: row;
+}
+.contactUs .card-service-contact img{
+   width: 124px;
+}
+/* ============Responsive ============== */
+@media screen and (max-width:992px) {
+    .contactUs{
+        padding: 10px;
+    }
+    
+    .div-form{
+    flex-wrap: wrap;
+    gap: 50px;
+    }
+    .cards-contact{
+        width: 100%;
+        align-items: center;
+    }
+    .contactUs .card-service-contact {
+    flex-direction: column;
+    }
+}    

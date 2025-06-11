@@ -38,6 +38,9 @@
   ul li{
       font-family: "Edu NSW ACT Foundation", cursive;
   }
+  ul li a{
+    color: var(--White-color) !important;
+}
   .flex-bw{
       display: flex;
       justify-content: space-between;
@@ -61,6 +64,12 @@
   }
   .container{
       padding: 48px 60px 17px 60px;
+  }
+  button svg{
+        padding: 8px;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
   }
   
 /* ================= Arabic =================== */

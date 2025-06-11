@@ -1,0 +1,6 @@
+.plans{
+    padding: 124px 60px;
+}
+.cards-plans{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+.card-service-contact{
+    width: 260px;
+    background: none;
+    border: none;
+    align-items: center;
+}
+.card-service-contact img{
+    width: 200px;
+}

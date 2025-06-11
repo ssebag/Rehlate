@@ -1,0 +1,34 @@
+.card-plans{
+    max-width: 400px;
+    border: 2px solid var(--Black-color);
+    border-radius: 15px;
+    padding: 48px 33px;
+    box-shadow: 5px 4px 4px 3px;
+    min-width: 350px;
+}
+.card-plans .card-body{
+    gap:16px;
+}
+.card-plans button{
+    width: 95%;
+    padding: 15px;
+    border-radius: 25px;
+    gap: 20px;
+}
+.purpleCard{
+    margin-top: 46px;
+    background-color: #46368B;
+    color: var(--White-color);
+}
+.purpleCard button{
+    border: 1px solid white;
+}
+.wheateCard{
+    margin-top: 111px;
+    background-color: #FFE7AC;
+    color: var(--Black-color);
+}
+
+.wheateCard button{
+    border: 1px solid black;
+}
