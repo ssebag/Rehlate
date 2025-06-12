@@ -1,5 +1,6 @@
 import React from 'react'
 import './Title.css'
+
 export default function Title({titleParagraph, titleMain}) {
   return (
     <div className='main-title'>
