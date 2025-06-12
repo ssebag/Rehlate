@@ -17,13 +17,30 @@ export default function Swiperr() {
   return (
     <Swiper
     modules={[Autoplay, Navigation, Pagination, A11y]}
-      spaceBetween={1}
-      slidesPerView={4}
       loop={true}
       autoplay={{
         delay:500,
         disabledInteraction: false
       }}
+      breakpoints={{
+        200: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+      },
+        500: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        750: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+        }}
+      
       speed={10000}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}

@@ -47,3 +47,9 @@
   padding: 7px;
   font-size: 10px;
 }
+
+@media screen and (max-width:992px) {
+    .purpleCard, .wheateCard{
+        margin-top: 0;
+    }
+}

@@ -13,3 +13,13 @@
     border-radius: 20px;
     width: 280px;
 }
+/* ================ Responsive =============== */
+@media screen and (max-width:992px) {
+    .swiper .card {
+        width: 230px;
+    }  
+    .swiper .card .card-body {
+        width: 95%;
+      }
+
+}    

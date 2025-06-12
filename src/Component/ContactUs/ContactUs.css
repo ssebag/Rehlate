@@ -36,5 +36,6 @@
     }
     .contactUs .card-service-contact {
     flex-direction: column;
+    text-align: center;
     }
 }    

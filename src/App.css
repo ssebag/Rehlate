@@ -39,7 +39,7 @@
       font-family: "Edu NSW ACT Foundation", cursive;
   }
   ul li a{
-    color: var(--White-color) !important;
+    color: var(--White-color);
 }
   .flex-bw{
       display: flex;
@@ -62,9 +62,6 @@
   .pointer{
       cursor:pointer
   }
-  .container{
-      padding: 48px 60px 17px 60px;
-  }
   button svg{
         padding: 8px;
         border-radius: 50%;
@@ -77,3 +74,10 @@
     direction: rtl;
     text-align: right !important;
 }  
+/* ================ Responsive =============== */
+@media screen and (max-width:768px) {
+    .container-responsive {
+        padding: 76px 20px !important;
+    }  
+
+}    

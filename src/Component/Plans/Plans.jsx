@@ -9,7 +9,7 @@ export default function Plans() {
     const { t, i18n } = useTranslation('plans_section');
 
   return (
-    <div className={`plans ${i18n.language ==='ar' ? 'arabic' : ''} `}>
+    <div className={`plans container-responsive ${i18n.language ==='ar' ? 'arabic' : ''} `}>
      <Title  titleParagraph= {t('title.Paraghraph')} titleMain={t('title.MainTitle')} />
      <div className="cards-plans flex-bw">
         {

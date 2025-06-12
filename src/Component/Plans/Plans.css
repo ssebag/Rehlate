@@ -2,5 +2,22 @@
     padding: 124px 60px;
 }
 .cards-plans{
-    flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+/* =================================== Responsive ================================== */
+@media screen and (max-width:992px) {
+.card-plans {
+    padding: 36px 24px;
+    width: 320px;
+  }
+}
+@media screen and (max-width:992px) {
+    .card-plans {
+        justify-content: center;
+        gap: 30px;
+    }
+    .cards-plans{
+        justify-content: center;
+        gap: 30px;
+    }
 }

@@ -1,5 +1,5 @@
 .services{
-    padding: 30px 60px;
+    padding: 64px 60px;
     text-align: center;
 }
 .services .cards-services{
@@ -7,4 +7,17 @@
     border-radius: 15px;
     padding: 96px 120px;
     margin-top: 64px;
+}
+/* =================================== Responsive ================================== */
+@media screen and (max-width:992px) {
+    .services .cards-services{
+        padding: 64px 35px;  
+    }   
+}
+@media screen and (max-width:768px) { 
+    .services .cards-services{
+        flex-wrap: wrap ;
+        justify-content: center;
+        gap: 20px;
+    }   
 }

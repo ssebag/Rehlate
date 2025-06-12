@@ -38,7 +38,7 @@ export default function Navbar() {
             <button className='menu_icon' onClick={handleToggleNav}><i className="fa-solid fa-bars"></i> </button>
          </div>
          {toggleNav ? (
-          <div className="nav-mobile flex-col">
+          <div className={`nav-mobile flex-col ${i18n.language ==='ar' ? ' ' : 'nav-mobile-en'} `}>
                 <p className="close-icon pointer"
                     onClick={handleToggleNav}>
                     X
