@@ -19,7 +19,6 @@
     gap: 20px;
 }
 .purpleCard{
-    margin-top: 46px;
     background-color: #46368B;
     color: var(--White-color);
 }
@@ -27,7 +26,7 @@
     border: 1px solid white;
 }
 .wheateCard{
-    margin-top: 111px;
+    margin-top: 50px;
     background-color: #FFE7AC;
     color: var(--Black-color);
 }

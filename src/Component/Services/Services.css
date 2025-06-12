@@ -1,12 +1,11 @@
 .services{
-    padding: 64px 60px;
+    padding: 124px 60px 0 60px;
     text-align: center;
 }
 .services .cards-services{
     background-color: #4c4c4c27;
     border-radius: 15px;
     padding: 96px 120px;
-    margin-top: 64px;
 }
 /* =================================== Responsive ================================== */
 @media screen and (max-width:992px) {
