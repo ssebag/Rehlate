@@ -4,6 +4,7 @@
 .div-form{
     display: flex;
   justify-content: space-between;
+  margin-top: 64px;
 }
 .cards-contact{
     width: 45%;
